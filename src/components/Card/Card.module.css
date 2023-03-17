@@ -1,0 +1,31 @@
+.Carta {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 50px;
+    border-style: solid;
+    background-color: rgb(247, 213, 151);
+    
+    -webkit-text-stroke: 1.5px black;
+}
+
+.Carta h2 {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+.Carta img {
+    padding: 0rem 1rem;
+    padding-bottom: 15px;
+    border-radius: 60px;
+}
+
+.Carta button {
+    border: 0px;
+    border-radius:20px;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+}
